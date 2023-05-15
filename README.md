@@ -10,6 +10,9 @@
 
 Python application that uses OpenCV library to detect faces in real-time video stream from a camera and frame them with a rectangle. It also provides the functionality to detect faces in pre-recorded video file.
 
+Python (>=3.9.7)
+OpenCV (>=4.6.0.66)
+
 # How to start?
 
 1. Clone current repository:
@@ -17,22 +20,28 @@ Python application that uses OpenCV library to detect faces in real-time video s
 git clone https://github.com/LeatherDiamond/face_capture.git
 ```
 
-2. Install all the requirements:
+2. Create and activate virtual environment on your machine:
+```
+python -m venv environment_name
+.\env\Scripts\activate
+```
+
+3. Install all the requirements:
 ```
 pip install -r requirements.txt
 ```
 
-3. In source code by default will be used your device. If you want to detect faces in pre-recorded video-file change line 9:
+4. In source code by default will be used your device. If you want to detect faces in pre-recorded video-file change line 9:
 ```
 camera = cv2.VideoCapture(path/to/video/file.mp4)
 ```
 
-4. Run the application:
+5. Run the application:
 ```
 python main.py
 ```
 
-5. Use "Ctrl+C" to interrupt/exit the application.
+6. Use "Ctrl+C" to interrupt/exit the application.
 
 
 # Why should you try it?
