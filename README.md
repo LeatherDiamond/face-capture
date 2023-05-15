@@ -10,8 +10,8 @@
 
 Python application that uses OpenCV library to detect faces in real-time video stream from a camera and frame them with a rectangle. It also provides the functionality to detect faces in pre-recorded video file.
 
-Python (>=3.9.7)
-OpenCV (>=4.6.0.66)
+- Python (>=3.9.7)
+- OpenCV (>=4.6.0.66)
 
 # How to start?
 
